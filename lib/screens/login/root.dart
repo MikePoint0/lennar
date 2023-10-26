@@ -3,7 +3,6 @@ import 'dart:async';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter/material.dart';
-import 'package:get_it/get_it.dart';
 import 'package:lennar/core/utils/images.dart';
 import 'package:lennar/core/utils/response_message.dart';
 import 'package:loader_overlay/loader_overlay.dart';
@@ -27,25 +26,16 @@ class LoginScreen extends StatefulWidget {
 }
 
 class _LoginScreenState extends State<LoginScreen> {
-  TextEditingController? _emailController = TextEditingController(text: "admin@admin.com");
-  TextEditingController? _passwordController = TextEditingController(text: "admin");
+  // TextEditingController? _emailController = TextEditingController(text: "admin@admin.com");
+  // TextEditingController? _passwordController = TextEditingController(text: "admin");
+  TextEditingController? _emailController = TextEditingController();
+  TextEditingController? _passwordController = TextEditingController();
   bool? _isRememberMeChecked = false, canSubmit = false, isSubmitting = false;
   final _formKey = GlobalKey<FormState>();
 
   @override
   void initState() {
     super.initState();
-    _getData();
-  }
-
-  //use this to remember the last logged-in email
-  Future<void> _getData() async {
-    String? loginEmail;
-      loginEmail = (await GetIt.I
-          .get<LocalStorage>()
-          .readString(LocalStorageKeys.kLoginEmailPrefs))!;
-    print(loginEmail);
-    setState(() {});
   }
 
   @override

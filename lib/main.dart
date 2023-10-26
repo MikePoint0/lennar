@@ -11,7 +11,6 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get_it/get_it.dart';
 import 'package:lennar/core/startup/user_interaction.dart';
 import 'package:loader_overlay/loader_overlay.dart';
-import 'core/config/config.dart';
 import 'core/datasource/key.dart';
 import 'core/datasource/local_storage.dart';
 import 'core/navigation/generate_route.dart';
@@ -32,7 +31,6 @@ void main()  async {
 
   await initLocator();
 
-  runZonedGuarded<Future<void>>(() async {
     runApp(
       DevicePreview(
           enabled: false,
@@ -43,12 +41,7 @@ void main()  async {
             child: const MyApp(),
           )),
     );
-  }, (error, stackTrace) async {
-    if (AppConfig.environment != Environment.staging) {
-      // final Event event = await getSentryEvent(error, stackTrace: stackTrace);
-      // sentry.capture(event: event);
-    }
-  });
+
 }
 
 class MyApp extends StatefulWidget {

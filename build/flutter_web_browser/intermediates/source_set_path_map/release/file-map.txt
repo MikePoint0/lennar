@@ -1,0 +1,13 @@
+dev.vbonnet.flutterwebbrowser.flutter_web_browser-jetified-window-1.0.0-beta04-0 /Users/christopher.adepoju-conde/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/res
+dev.vbonnet.flutterwebbrowser.flutter_web_browser-jetified-annotation-experimental-1.1.0-1 /Users/christopher.adepoju-conde/.gradle/caches/transforms-3/6c0c163cc77ae6c91f9f7dfcd179c29c/transformed/jetified-annotation-experimental-1.1.0/res
+dev.vbonnet.flutterwebbrowser.flutter_web_browser-browser-1.4.0-2 /Users/christopher.adepoju-conde/.gradle/caches/transforms-3/6d3bbaf4594b8ed85e4722883be764b3/transformed/browser-1.4.0/res
+dev.vbonnet.flutterwebbrowser.flutter_web_browser-core-1.6.0-3 /Users/christopher.adepoju-conde/.gradle/caches/transforms-3/7e9df2ac2213a6bd3cef0f2f27870d79/transformed/core-1.6.0/res
+dev.vbonnet.flutterwebbrowser.flutter_web_browser-jetified-window-java-1.0.0-beta04-4 /Users/christopher.adepoju-conde/.gradle/caches/transforms-3/ae81e06d24c799147c26814497a2a305/transformed/jetified-window-java-1.0.0-beta04/res
+dev.vbonnet.flutterwebbrowser.flutter_web_browser-main-5 /Users/christopher.adepoju-conde/.pub-cache/hosted/pub.dev/flutter_web_browser-0.17.1/android/src/main/res
+dev.vbonnet.flutterwebbrowser.flutter_web_browser-release-6 /Users/christopher.adepoju-conde/.pub-cache/hosted/pub.dev/flutter_web_browser-0.17.1/android/src/release/res
+dev.vbonnet.flutterwebbrowser.flutter_web_browser-pngs-7 /Users/christopher.adepoju-conde/StudioProjects/lennar/build/flutter_web_browser/generated/res/pngs/release
+dev.vbonnet.flutterwebbrowser.flutter_web_browser-resValues-8 /Users/christopher.adepoju-conde/StudioProjects/lennar/build/flutter_web_browser/generated/res/resValues/release
+dev.vbonnet.flutterwebbrowser.flutter_web_browser-rs-9 /Users/christopher.adepoju-conde/StudioProjects/lennar/build/flutter_web_browser/generated/res/rs/release
+dev.vbonnet.flutterwebbrowser.flutter_web_browser-mergeReleaseResources-10 /Users/christopher.adepoju-conde/StudioProjects/lennar/build/flutter_web_browser/intermediates/incremental/release/mergeReleaseResources/merged.dir
+dev.vbonnet.flutterwebbrowser.flutter_web_browser-mergeReleaseResources-11 /Users/christopher.adepoju-conde/StudioProjects/lennar/build/flutter_web_browser/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+dev.vbonnet.flutterwebbrowser.flutter_web_browser-merged_res-12 /Users/christopher.adepoju-conde/StudioProjects/lennar/build/flutter_web_browser/intermediates/merged_res/release
